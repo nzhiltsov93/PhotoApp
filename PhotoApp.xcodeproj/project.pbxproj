@@ -14,6 +14,7 @@
 		89591DC628C7503D002066D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89591DC428C7503D002066D1 /* LaunchScreen.storyboard */; };
 		89591DD728C752B7002066D1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 89591DD628C752B7002066D1 /* SnapKit */; };
 		89591DD928C753D2002066D1 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DD828C753D2002066D1 /* MediaViewController.swift */; };
+		89591DDB28C75517002066D1 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DDA28C75517002066D1 /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		89591DC528C7503D002066D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89591DC728C7503D002066D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89591DD828C753D2002066D1 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		89591DDA28C75517002066D1 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				89591DBD28C7503C002066D1 /* ViewController.swift */,
+				89591DDA28C75517002066D1 /* FavoriteViewController.swift */,
 				89591DD828C753D2002066D1 /* MediaViewController.swift */,
 			);
 			path = ViewControllers;
@@ -213,6 +216,7 @@
 				89591DBA28C7503C002066D1 /* AppDelegate.swift in Sources */,
 				89591DBC28C7503C002066D1 /* SceneDelegate.swift in Sources */,
 				89591DD928C753D2002066D1 /* MediaViewController.swift in Sources */,
+				89591DDB28C75517002066D1 /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
