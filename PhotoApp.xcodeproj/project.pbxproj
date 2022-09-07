@@ -17,6 +17,7 @@
 		89591DDB28C75517002066D1 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DDA28C75517002066D1 /* FavoriteViewController.swift */; };
 		89591DDD28C756C5002066D1 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DDC28C756C5002066D1 /* AlbumsViewController.swift */; };
 		89591DDF28C757F5002066D1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DDE28C757F5002066D1 /* SearchViewController.swift */; };
+		89591DE128C8674A002066D1 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591DE028C8674A002066D1 /* Albums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		89591DDA28C75517002066D1 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		89591DDC28C756C5002066D1 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		89591DDE28C757F5002066D1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		89591DE028C8674A002066D1 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		89591DD328C75126002066D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				89591DE028C8674A002066D1 /* Albums.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				89591DBA28C7503C002066D1 /* AppDelegate.swift in Sources */,
 				89591DDD28C756C5002066D1 /* AlbumsViewController.swift in Sources */,
 				89591DBC28C7503C002066D1 /* SceneDelegate.swift in Sources */,
+				89591DE128C8674A002066D1 /* Albums.swift in Sources */,
 				89591DD928C753D2002066D1 /* MediaViewController.swift in Sources */,
 				89591DDB28C75517002066D1 /* FavoriteViewController.swift in Sources */,
 			);
