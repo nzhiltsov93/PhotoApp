@@ -246,6 +246,7 @@ extension AlbumsViewController: UICollectionViewDataSource, UICollectionViewDele
         case 0:
             let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: AlbumsHeaderCell.identifier, for: indexPath) as! AlbumsHeaderCell
             header.headerTitle.text = "Мои альбомы"
+            header.subtitleButton.setTitle("Все", for: .normal)
             return header
         case 1:
             let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: AlbumsHeaderCell.identifier, for: indexPath) as! AlbumsHeaderCell
