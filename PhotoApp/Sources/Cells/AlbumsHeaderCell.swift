@@ -74,5 +74,6 @@ class AlbumsHeaderCell: UICollectionReusableView {
         super.prepareForReuse()
         headerTitle.text = nil
         subtitleButton.setTitle(nil, for: .normal)
+        subtitleButton.isHidden = false
     }
 }
