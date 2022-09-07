@@ -31,6 +31,9 @@ class AlbumsViewController: UIViewController {
     
     private func setupNavigationBar() {
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add,
+                                                           target: self,
+                                                           action: #selector(addPhotoAlbum))
     }
     
     private func setupHierarchy() {
@@ -43,6 +46,9 @@ class AlbumsViewController: UIViewController {
             make.left.right.bottom.equalTo(view)
             make.bottom.equalTo(view)
         }
+    }
+    
+    @objc func addPhotoAlbum() {
     }
     
     private func createLayout() -> UICollectionViewCompositionalLayout {
@@ -222,6 +228,7 @@ extension AlbumsViewController: UICollectionViewDataSource, UICollectionViewDele
         case 1:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FirstAndSecondSectionCell.identifier, for: indexPath) as! FirstAndSecondSectionCell
             cell.configureAlbumsDetails(albums: Albums.albums[indexPath.section][indexPath.item])
+            cell.countTitle.text = String(Int.random(in: 1...5))
             return cell
         case 2, 3:
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TableSectionCell.identifier, for: indexPath) as! TableSectionCell
